@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+@theme{
+    --font-primary: "Roboto",sans-serif;
+    --color-primary :#FF383C;
+    --color-heading :#30344E;
+    --color-secondary :#52C5B6;
+    --color-para :#5B5F77; 
+
+}
+
+body{
+    font-family: var(--font-primary);
+}
+@layer components {
+    .wrapper {
+        @apply max-w-[1320px] mx-auto w-full px-4 md:px-8
+    }
+}
