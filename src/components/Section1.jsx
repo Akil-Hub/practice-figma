@@ -7,7 +7,7 @@ const Section1 = () => {
     <section className="wrapper py-20 px-20 flex flex-col md:flex-row gap-20 items-center">
       {/* left Image */}
       <div className="">
-        <img src={section1left} alt="" />
+        <img src={bug} alt="" />
       </div>
 
       {/* right Text */}
