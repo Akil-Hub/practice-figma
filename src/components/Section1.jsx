@@ -1,6 +1,7 @@
 import React from 'react';
 import check from '@/assets/check.png';
-import section1Left from '@/assets/section1Left.png';
+import bug from '@/assets/bug.png'
+
 const Section1 = () => {
   return (
     <section className="wrapper py-20 px-20 flex flex-col md:flex-row gap-20 items-center">
